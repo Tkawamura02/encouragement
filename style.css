@@ -1,0 +1,51 @@
+body {
+  height: 130vh;
+  background-image: linear-gradient(#ffb5b5, #ffe7e7);
+}
+
+.row {
+  margin: 4vh 0;
+}
+
+input {
+  height: 40px;
+  text-align: center;
+}
+
+textarea {
+  width: 80%;
+  height: 120px;
+}
+
+textarea::placeholder {
+  text-align: center;
+  line-height: 60px;
+}
+
+#volume {
+  width: 100%;
+  height: 15px;
+  -webkit-appearance: none;
+  background: #111;
+  outline: none;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 1);
+}
+
+#volume::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background: gray;
+  cursor: pointer;
+  border: 4px solid #333;
+  box-shadow: -407px 0 0 400px gray;
+}
+
+#rangeValue {
+  position: relative;
+  display: block;
+  text-align: center;
+}
